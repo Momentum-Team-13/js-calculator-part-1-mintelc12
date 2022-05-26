@@ -1,23 +1,24 @@
 .flex-container {
-    max-width: 250px;
+    max-width: 260px;
 }
 
 .first-row {
     display: flex;
-    background-color: rgb(170, 209, 125);
+    background-color: rgb(150, 194, 213);
     color: white;
-    padding: 5px;
-    border: 1px solid white;
+    padding: 7px;
+    
     font-weight: bold;
     justify-content: space-between;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 
 }
 .second-row {
     display: flex;
-    background-color: rgb(137, 184, 220);
+    background-color: rgb(144, 137, 220);
     color: white;
-    padding: 5px;
-    border: 1px solid white;
+    padding: 7px;
     font-weight: bold;
     justify-content: space-between;
 }
@@ -25,8 +26,7 @@
 .third-row {
     display: flex;
     background-color: rgb(208, 188, 211);
-    padding: 5px;
-    border: 1px solid white;
+    padding: 7px;
     color: white;
     font-weight: bold;
     justify-content: space-between;
@@ -35,8 +35,7 @@
 .fourth-row {
     display: flex;
     background-color: rgb(222, 171, 177);
-    padding: 5px;
-    border: 1px solid white;
+    padding: 7px;
     color: white;
     font-weight: bold;
     justify-content: space-between;
@@ -44,23 +43,26 @@
 
 .fifth-row {
     display: flex;
-    background-color: rgb(227, 186, 90);
-    padding: 5px;
-    border: 1px solid white;
+    background-color: rgb(153, 92, 155);
+    padding: 7px;
     color: white;
     font-weight: bold;
     justify-content: space-between;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .number {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background: url(Wallpaper_LoveMae-Polkadot-Dreams-1.jpg);
+    background: url(outer-space.jpeg);
     background-size: cover;
-    color: midnightblue;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     opacity: .80;
     font-size: 24px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
     
 }
