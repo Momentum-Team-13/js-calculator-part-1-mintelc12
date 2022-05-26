@@ -1,0 +1,66 @@
+.flex-container {
+    max-width: 250px;
+}
+
+.first-row {
+    display: flex;
+    background-color: rgb(170, 209, 125);
+    color: white;
+    padding: 5px;
+    border: 1px solid white;
+    font-weight: bold;
+    justify-content: space-between;
+
+}
+.second-row {
+    display: flex;
+    background-color: rgb(137, 184, 220);
+    color: white;
+    padding: 5px;
+    border: 1px solid white;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+.third-row {
+    display: flex;
+    background-color: rgb(208, 188, 211);
+    padding: 5px;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+.fourth-row {
+    display: flex;
+    background-color: rgb(222, 171, 177);
+    padding: 5px;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+.fifth-row {
+    display: flex;
+    background-color: rgb(227, 186, 90);
+    padding: 5px;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+.number {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: url(Wallpaper_LoveMae-Polkadot-Dreams-1.jpg);
+    background-size: cover;
+    color: midnightblue;
+    font-weight: bold;
+    opacity: .80;
+    font-size: 24px;
+    
+}
