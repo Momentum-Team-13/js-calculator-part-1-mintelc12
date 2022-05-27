@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="main.css" />
-    <script src="main.js"></script>
+    <script src="main.js" defer></script>
     <title>Document</title>
 </head>
 <body>
     <div class="flex-container">
         <div class="first-row"> 
-            <button style="display:inline" class="number">C</button>
+            <button style="display:inline" class="number clear">C</button>
+            <div id="blank"></div>
             
         </div>
         <div class="second-row"> 
@@ -35,7 +36,7 @@
         <div class="fifth-row">
             <button class="number 0">0</button>
             <button class="number .">.</button>
-            <button class="number">=</button>
+            <button class="number evaluation">=</button>
             <button class="number">+</button>
         </div>
     </div>
