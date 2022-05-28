@@ -17,6 +17,15 @@ for (let number of numbers) {
     } else {
         display.innerText += event.target.textContent;
     }
+
+    });
+}
+    clear.addEventListener("click", 
+    function(event) {
+        display.innerText = "";
+    })
+
+
     // console.log("event object: ", "event")
     //     console.log(event.target.textContent);
     //     let newElement = 
@@ -27,15 +36,4 @@ for (let number of numbers) {
     //     display.appendChild(newElement);
         // append the new element containing the p tag
         // to the currently empty display
-    });
-}
-
-
-// for (let clear of clear) {
-    clear.addEventListener("click", 
-    function(event) {
-        display.innerText = "";
-    })
-
-
     
