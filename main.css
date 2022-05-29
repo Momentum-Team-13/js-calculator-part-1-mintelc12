@@ -64,7 +64,10 @@
     font-size: 24px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     border-radius: 10px;
-    
+    width: 60px;
+    justify-content: center;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px white  
+
 }
 
 .highlight {
@@ -76,11 +79,14 @@
     border: 3px solid rgb(255, 255, 255);
     font-size: 24px;
     display: flex;
+    justify-content: center;
     max-width: 170px;
     flex-flow: wrap;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-radius: 5px;
-    background-color:rgb(61, 88, 130)
+    background-color:rgb(61, 88, 130);
+    background-size: contain;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px white
 }
 /* p {
     padding: 2px;
@@ -88,9 +94,3 @@
     max-width: 170px;
 
 } */
-
-.number {
-    width: 60px;
-    justify-content: center;
-
-}

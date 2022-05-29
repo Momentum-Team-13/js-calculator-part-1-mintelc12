@@ -5,7 +5,7 @@ let display = document.querySelector("#display")
 let clear = document.querySelector(".clear")
 // console.log(number);
 
-
+// function to allow the = to work properly:
 for (let number of numbers) {
     number.addEventListener("click",
     function(event) {
@@ -14,16 +14,34 @@ for (let number of numbers) {
     if (number === equals) {
         display.innerText = math.eval(display.innerText);
 
+    } else if (number === decimal) {
+        display.innerText = "0."
     } else {
         display.innerText += event.target.textContent;
     }
 
     });
 }
-    clear.addEventListener("click", 
-    function(event) {
-        display.innerText = "";
-    })
+
+
+// for (let number of numbers) {
+//     number.addEventListener("keyup", function(event) { 
+//         console.log(number.innerText)
+//         display.innerText += event.target.textContent;
+//         })};
+
+
+        clear.addEventListener("click", 
+        function(event) {
+            display.innerText = "";
+        })
+
+    
+
+// for (let number of numbers) {
+//     number.addEventListener("click", function onClick(event) {
+//     display.body.style.backgroundColor = "cyan";
+// })}
 
 
     // console.log("event object: ", "event")
@@ -36,4 +54,3 @@ for (let number of numbers) {
     //     display.appendChild(newElement);
         // append the new element containing the p tag
         // to the currently empty display
-    
