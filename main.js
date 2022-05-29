@@ -50,22 +50,23 @@ document.addEventListener("keydown", (event) => {
         display.innerText += "/";
     } else if (event.key == "+") {
         display.innerText += "+";
-    } else if (event.key == "=") {
-        display.innerText = math.eval(display.innerText);    
-    } else if (event.key == "*") {
+    }  else if (event.key == "*") {
         display.innerText += "*";
     } else if (event.key == "-") {
         display.innerText += "-";
+    } else if (event.key == "(") {
+        display.innerText += "(";
+    } else if (event.key == ")") {
+        display.innerText += ")"; 
+    } else if (event.key == "%") {
+        display.innerText += "%"
+    } else if (event.key == "**") {
+        display.innerText = "**";
+    } else if (event.key == "c") {
+        display.innerText = "";
     }
     } 
 )
-
-// for (let number of numbers) {
-//     number.addEventListener("keypress", function(event) { 
-
-//         return display.innerText += event.target.textContent;
-//     })};
-
 
         clear.addEventListener("click", 
         function(event) {
