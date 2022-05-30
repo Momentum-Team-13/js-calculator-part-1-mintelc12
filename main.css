@@ -93,14 +93,14 @@
     border: 3px solid rgb(255, 255, 255);
     font-size: 24px;
     display: flex;
-    justify-content: center;
     max-width: 170px;
     flex-flow: wrap;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-radius: 5px;
     background-color:rgb(61, 88, 130);
     background-size: contain;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px white
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px white;
+    overflow: hidden;
 }
 /* p {
     padding: 2px;

@@ -5,12 +5,6 @@ let display = document.querySelector("#display")
 let clear = document.querySelector(".clear")
 let exponent = document.getElementById("exponent")
 
-// numbers.addEventListener("mouseover", () => {
-//     numbers.style.backgroundImage = `url("cyan")`
-// })
-// numbers.addEventListener("mouseleave", () => {
-//     numbers.style.backgroundImage = `url("outer-space.jpeg")`
-// }) 
 
 
 // function to allow the = to work properly:
@@ -26,20 +20,8 @@ for (let number of numbers) {
         display.innerText = "0."
     } else {
         display.innerText += event.target.textContent;
-    }
-    })
-    // number.addEventListener("click", function onClick(event) {
-    //     display.style.backgroundColor = "#72D2D8F";
-    // });
-}
-
-
-
-// display.addEventListener("mouseover", )
-// document.getElementById("number").addEventListener("click", function() {
-//     document.getElementById("numbers").style.backgroundColor = "cyan";
-// });
-
+    } 
+    })}
 
 document.addEventListener("keydown", (event) => {
     if (event.key == "0") {
