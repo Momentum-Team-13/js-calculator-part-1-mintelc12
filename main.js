@@ -3,7 +3,15 @@ let numbers = document.querySelectorAll(".number");
 let equals = document.getElementById("evaluation");
 let display = document.querySelector("#display")
 let clear = document.querySelector(".clear")
-// console.log(number);
+let exponent = document.getElementById("exponent")
+
+// numbers.addEventListener("mouseover", () => {
+//     numbers.style.backgroundImage = `url("cyan")`
+// })
+// numbers.addEventListener("mouseleave", () => {
+//     numbers.style.backgroundImage = `url("outer-space.jpeg")`
+// }) 
+
 
 // function to allow the = to work properly:
 for (let number of numbers) {
@@ -19,9 +27,19 @@ for (let number of numbers) {
     } else {
         display.innerText += event.target.textContent;
     }
-
-    });
+    })
+    // number.addEventListener("click", function onClick(event) {
+    //     display.style.backgroundColor = "#72D2D8F";
+    // });
 }
+
+
+
+// display.addEventListener("mouseover", )
+// document.getElementById("number").addEventListener("click", function() {
+//     document.getElementById("numbers").style.backgroundColor = "cyan";
+// });
+
 
 document.addEventListener("keydown", (event) => {
     if (event.key == "0") {
@@ -58,27 +76,22 @@ document.addEventListener("keydown", (event) => {
         display.innerText += "(";
     } else if (event.key == ")") {
         display.innerText += ")"; 
+    } else if (event.key == "=") {
+        display.innerText = math.eval(display.innerText);
     } else if (event.key == "%") {
-        display.innerText += "%"
-    } else if (event.key == "**") {
-        display.innerText = "**";
+        display.innerText += "%"; 
     } else if (event.key == "c") {
         display.innerText = "";
-    }
+    } else if (event.key == "^") {
+        display.innerText += "^";
     } 
-)
+})
+
 
         clear.addEventListener("click", 
         function(event) {
             display.innerText = "";
         })
-
-    
-
-// for (let number of numbers) {
-//     number.addEventListener("click", function onClick(event) {
-//     display.body.style.backgroundColor = "cyan";
-// })}
 
 
     // console.log("event object: ", "event")
